@@ -1,5 +1,5 @@
 module.exports = function toReadable (number) {
-    let numberStr = String(number);
+    let numberStr = number.toString();
     let sot = '';
     let des = '';
     let ed = '';
